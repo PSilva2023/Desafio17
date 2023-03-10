@@ -83,3 +83,30 @@
 
 
 /* Variables End */
+
+
+
+/* Mobile start */
+
+@media (max-width: 720px) {
+    #h1-m {
+        font-size: 21px; 
+    }
+
+    #h3-m {
+        font-size: 18px;
+        padding-top: 5px !important;
+    }
+
+    #time-h,
+    #time-pm {
+        font-size: 20px !important;
+    }
+
+    #kenai-p-loggin {
+        font-size: 26px;
+    }
+
+}
+
+/* Mobile start */

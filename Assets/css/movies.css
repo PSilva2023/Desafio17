@@ -1,0 +1,19 @@
+
+
+#section-img {
+    position: relative;
+    background-image: url(../images/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 900px;
+}
+
+#grad-l {
+    height: 100%;
+    width: 30%;
+    background-image: linear-gradient(to top,
+    #1D1D1D 4.67%,
+    rgba(29, 29, 29, 0 101.21%));
+}
