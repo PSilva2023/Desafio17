@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+
+* {
+    text-decoration: none !important;
+}
+
+/* Variables Start */
+
+:root {
+    --font-mukta: 'Mukta', sans-serif;
+    --font-primary: 'Open Sans', sans-serif;
+
+}
+
+.account {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.fs-time {
+    font-size: 30px;
+}
+
+.gap-time {
+    gap: 13px;
+}
+
+.font-mukta-d {
+    font-family: var(--font-mukta);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.font-mukta-m {
+    font-size: 24px;
+}
+
+
+.font1 {
+    font-family: var(--font-primary);
+    font-weight: 300;
+}
+
+.font2 {
+    font-family: var(--font-primary);
+    font-weight: 400;
+}
+
+.font3 {
+    font-family: var(--font-primary);
+    font-weight: 600;
+}
+
+.color1 {
+    color:#F9F9F9;
+}
+
+.color2 {
+    color: #A8A8A8;
+}
+
+.color3 {
+    color:#FFA634;
+}
+
+.bg-color1 {
+    background-color: #FFA634;
+
+}
+
+.bg-txt-gradient {
+    background: linear-gradient( to left,
+    #FF267A 0%,
+    #FFA634 101.03%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Variables End */
