@@ -1,19 +1,108 @@
 
+/* Style for img Start */
 
 #section-img {
     position: relative;
-    background-image: url(../images/bg-img.png);
+    background-image: url(../images/bg-desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    object-fit: cover;
-    height: 900px;
+    height: 800px;
 }
 
-#grad-l {
-    height: 100%;
-    width: 30%;
+#section-img::before {
+    position: absolute;
+    bottom: 0;
+    content: '';
+    width: 100%;
+    height: 300px;
     background-image: linear-gradient(to top,
-    #1D1D1D 4.67%,
-    rgba(29, 29, 29, 0 101.21%));
+            #121214 4.67%,
+            rgba(12, 11, 11, 0) 101.21%);
 }
+
+/* Style  for img End */
+
+
+.icon-size {
+    font-size: 38px;
+}
+
+
+.txt-button {
+    width: 65px;
+    height: 30px;
+    border-radius: 0px 10px 0px 10px;
+    background-color: #181818;
+
+}
+
+.icon-shadow {
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 3px 12px #FF6B00;
+}
+
+.star-img {
+    width: 35px;
+    height: 35px;
+
+
+}
+
+.ul-gap {
+    gap: 38px;
+}
+
+.h5-line {
+    position: relative;
+}
+
+.h5-line::before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    width: 40px;
+    height: 2px;
+    background-color: #FFA634;
+    opacity: .5;
+}
+
+.card-w-h {
+    position: relative;
+    max-width: 320px;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.card-w-h::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 130px;
+    background: linear-gradient(180deg,
+            rgba(24, 24, 24, 0) 0%,
+            rgba(24, 24, 24, 0.8) 80.79%);
+}
+
+#txt-card {
+    bottom: 30px;
+    left: 20px;
+}
+
+#section-movies {
+    position: absolute;
+    bottom: -300px;
+}
+
+.icon-footer {
+    font-size: 25px;
+    color: #F9F9F9;
+}
+

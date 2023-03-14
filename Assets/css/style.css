@@ -21,6 +21,18 @@
     border-radius: 50%;
 }
 
+.grad-account1 {
+    background: linear-gradient(225deg, #781FD1 0%, #570EAB 100%);
+}
+
+.grad-account2 {
+    background: linear-gradient(180deg, #64FA9B 0%, #5FE36A 100%);
+}
+
+.grad-account3 {
+    background: linear-gradient(180deg, #4DF0F3 0%, #4D7BFD 100%);
+}
+
 .fs-time {
     font-size: 30px;
 }
@@ -32,7 +44,7 @@
 .font-mukta-d {
     font-family: var(--font-mukta);
     font-weight: 700;
-    font-size: 35px;
+    font-size: 33px;
 }
 
 .font-mukta-m {
@@ -52,11 +64,11 @@
 
 .font3 {
     font-family: var(--font-primary);
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 .color1 {
-    color:#F9F9F9;
+    color:#F9F9F9 !important;
 }
 
 .color2 {
@@ -81,12 +93,38 @@
     -webkit-text-fill-color: transparent;
 }
 
-
 /* Variables End */
 
+#cards-scroll::-webkit-scrollbar {
+    height: 10px;
+}
+
+#cards-scroll::-webkit-scrollbar-thumb {
+    background-color: var(--bg-button);
+    border: 5px solid #FFA634;
+}
+
+#cards-scroll::-webkit-scrollbar-track {
+    background-color: #ffa7349c;
+    
+}
 
 
 /* Mobile start */
+
+@media (max-width: 1700px) {
+    #cards-scroll {
+        overflow-x: scroll !important;
+        gap: 50px !important;
+    }
+
+    .ul-gap {
+        gap: 30px;
+        flex-direction: inherit;
+    }
+}
+
+
 
 @media (max-width: 720px) {
     #h1-m {
@@ -105,6 +143,56 @@
 
     #kenai-p-loggin {
         font-size: 26px;
+    }
+
+    #section-img {
+        position: relative;
+        background-image: url(../images/bg-mobile.png) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
+
+    .icon-none,
+    #kenai-none {
+        display: none;
+    }
+
+    .ul-gap {
+        padding-left: 125px !important;
+        gap: 0;
+        flex-direction: row-reverse;
+    }
+
+    #btn-header {
+        width: 100% !important;
+    }
+
+    #icons-footer {
+        width: 100% !important;
+        justify-content: space-between;
+        padding: 25px 0;
+    }
+
+    .card-w-h {
+        max-width: 250px !important;
+        height: 400px !important;
+    }
+
+    #section-movies {
+        bottom: -220px !important;
+    }
+
+    footer {
+        height: 340px !important;
+    }
+
+    #cards-scroll {
+        width: 100% !important;
+        overflow-x: scroll !important;
+        gap: 30px;
+
     }
 
 }
