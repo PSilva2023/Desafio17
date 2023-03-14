@@ -160,7 +160,6 @@
     }
 
     .ul-gap {
-        padding-left: 125px !important;
         gap: 0;
         flex-direction: row-reverse;
     }
